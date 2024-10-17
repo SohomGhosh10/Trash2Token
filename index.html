@@ -17,9 +17,8 @@
             font-size: 1.1256854rem;
         }
 
-        /* Custom theme for Trash2Token */
         header {
-            background-color: #2c5f2d; /* Eco-friendly dark green */
+            background-color: #2c5f2d; 
         }
 
         .carousel-caption h1,
@@ -32,10 +31,10 @@
         }
 
         .btn-success {
-            background-color: #4CAF50; /* Lighter green */
+            background-color: #4CAF50; 
         }
 
-        /* Footer Customization */
+    
         footer {
             background-color: #2c5f2d;
             color: white;
@@ -48,30 +47,17 @@
             padding: 10px;
         }
 
-        /*.section-title {
-            text-align: center;
-            margin-bottom: 30px;
-            color: #2c5f2d;
-        }*/
-
         .team-member {
             text-align: center;
             margin-bottom: 20px;
         }
 
         .team-member img {
-            width: 150px; /* Set a fixed width for images */
+            width: 150px;
             height: auto;
-            border-radius: 50%; /* Circular images */
+            border-radius: 50%; 
             margin-bottom: 10px;
         }
-
-        /*.grid {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 20px;
-        }*/
 
         .team-member h3 {
             margin: 10px 0 5px 0;
@@ -112,7 +98,6 @@
 
 <body>
 
-    <!-- ################# Header Starts Here ####################### -->
     <header id="menu-jk">
         <div id="nav-head" class="header-nav">
             <div class="container">
@@ -138,7 +123,6 @@
         </div>
     </header>
 
-    <!-- ################# Slider Starts Here ####################### -->
     <div class="slider-detail">
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
@@ -176,7 +160,6 @@
         </div>
     </div>
 
-    <!-- ################# Key Features Section ####################### -->
     <section id="services" class="key-features department">
         <div class="container">
             <div class="inner-title">
@@ -206,7 +189,6 @@
         </div>
     </section>
 
-    <!-- ################# About Us Section ####################### -->
     <section id="about_us" class="about-us">
         <div class="container">
             <div class="inner-title">
@@ -224,7 +206,6 @@
         </div>
     </section>
 
-    <!-- ################# Team Section ####################### -->
     <section id="team" class="section team">
         <div class="container">
             <h2 class="section-title">Our Team</h2>
@@ -253,7 +234,6 @@
         </div>
     </section>
 
-    <!-- ################# Contact Section ####################### -->
     <section id="contact" class="section contact">
         <div class="container">
             <h2>Contact Us</h2>
@@ -282,7 +262,6 @@
         </div>
     </section>
 
-    <!-- ################# Footer ####################### -->
     <footer class="footer">
         <div class="container">
             <div class="row">
@@ -317,14 +296,9 @@
     <script src="assets/js/script.js"></script>
 
     <script>
-        // Handle Form Submission
         document.getElementById('contactForm').addEventListener('submit', function(event) {
-            event.preventDefault();  // Prevent default form submission
-
-            // Show the success message
+            event.preventDefault();
             document.getElementById('successMessage').style.display = 'block';
-
-            // Optionally, clear the form fields
             document.getElementById('contactForm').reset();
         });
     </script>
